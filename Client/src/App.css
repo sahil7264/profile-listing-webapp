@@ -1,0 +1,223 @@
+body {
+
+  box-sizing: border-box;
+  background-image: url('./images/img.jpg');
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
+
+.App {
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+}
+
+.title {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-top: 16px;
+  margin-left: 50px;
+}
+
+.txt {
+  position: absolute;
+  width: 100%;
+}
+
+.nav-list {
+  position: absolute;
+  width: max-content;
+  list-style: none;
+  color: white;
+  margin: 0;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 2px solid rgb(120, 118, 118);
+  text-align: right;
+  width: 96%;
+}
+
+.nav-list li {
+  display: inline-block;
+  margin: 10px;
+  padding: 11px;
+  cursor: pointer;
+}
+
+.nav-list li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-list li:hover {
+  border: 1px solid rgb(120, 118, 118);
+  ;
+}
+
+.heading {
+  background-color: azure;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.signup-div,
+.login-div {
+  max-width: 400px;
+  min-width: max-content;
+  align-items: center;
+  color: white;
+  border-top: 2px solid rgb(120, 118, 118);
+  border-bottom: 2px solid rgb(120, 118, 118);
+  margin: auto;
+  margin-top: 12%;
+  padding: 20px;
+  border-radius: 30px;
+  opacity: 1;
+  animation-name: loginwala;
+  animation-duration: 2.5s;
+  animation-iteration-count: 1;
+}
+
+.home-div {
+  color: white;
+  max-width: max-content;
+  border-top: 2px solid rgb(120, 118, 118);
+  border-bottom: 2px solid rgb(120, 118, 118);
+  margin: auto;
+  margin-top: 15%;
+  border-radius: 30px;
+  opacity: 1;
+  animation-name: loginwala;
+  animation-duration: 2.5s;
+  animation-iteration-count: 1;
+  padding: 30px;
+}
+
+.flex-home {
+  margin-top: 0;
+  display: flex;
+}
+
+@keyframes loginwala {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.input-box {
+  display: block;
+  width: 80%;
+  margin: 5%;
+  padding: 5%;
+  border: none;
+  background: none;
+}
+
+::placeholder {
+  color: white;
+  font-size: 14px;
+}
+
+.login-btn {
+  width: 80%;
+  padding: 5%;
+  margin: 5%;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.login-btn:hover {
+  border: 2px solid rgb(120, 118, 118);
+}
+
+
+.circletag {
+  width: 150px;
+  height: 150px;
+  min-width: 150px;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  line-height: 100px;
+  background-image: url("./images/img3.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+}
+
+.details {
+  text-align: left;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none;
+}
+
+.dash-div {
+  margin-top: 5%;
+  color: white;
+}
+
+.add-div {
+  margin: auto;
+  border-bottom: 2px solid rgb(120, 118, 118);
+}
+
+.dash-btn {
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 20px;
+}
+
+.dash-btn:hover {
+  color: black;
+  border-top: 2px solid rgb(120, 118, 118);
+  border-bottom: 2px solid rgb(120, 118, 118);
+  border-radius: 30px;
+}
+
+.info-div{
+  margin: 30px;
+  display: inline-block;
+}
+
+.usertag {
+  width: 150px;
+  height: 150px;
+  min-width: 150px;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  line-height: 100px;
+  background-image: url("./images/user.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+}
+
+::placeholder {
+  /* color: red; */
+  font-size: 18px;
+}
